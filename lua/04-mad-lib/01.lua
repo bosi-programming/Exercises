@@ -1,0 +1,10 @@
+print("Enter a noun")
+local noun = io.read()
+print("Enter a verb")
+local verb = io.read()
+print("Enter an adjective")
+local adjective = io.read()
+print("Enter an adverb")
+local adverb = io.read()
+
+print("Do you " ..verb .." your " ..adjective .." " ..noun .." " ..adverb .."? That's hilarious!")
